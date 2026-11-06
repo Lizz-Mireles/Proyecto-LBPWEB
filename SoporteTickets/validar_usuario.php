@@ -1,4 +1,3 @@
-//validar_usuario.php
 <?php
 session_start();
 require_once('_db.php');
