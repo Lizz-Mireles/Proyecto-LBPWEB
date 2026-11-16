@@ -320,10 +320,9 @@ function colorEstado($s){
     </div>
 
     <?php if($rol == "admin"){ ?>
-    <!-- Desempeno por tecnico -->
     <div class="card shadow mb-4">
         <div class="card-header bg-dark text-white">
-            <i class="bi bi-person-gear"></i>Desempeno por tecnico
+            <i class="bi bi-person-gear"></i>Desempeño por tecnico
         </div>
         <div class="card-body">
             <div class="table-responsive">
