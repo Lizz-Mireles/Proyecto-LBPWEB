@@ -12,7 +12,7 @@ if($_SESSION['usuario']['tipo'] == "cliente"){
 ob_start();
 require_once("_db.php");
 ob_end_clean();
-require_once("_filtros_reportes.php");
+require_once("filtros_reportes.php");
 
 list($where, $types, $params) = construirFiltros();
 
