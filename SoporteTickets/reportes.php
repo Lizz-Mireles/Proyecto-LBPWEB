@@ -1,7 +1,7 @@
 <?php
 include("sidebar.php");
 require_once("_db.php");
-require_once("_filtros_reportes.php");
+require_once("filtros_reportes.php");
 
 $rol = $_SESSION['usuario']['tipo'];
 if($rol == "cliente"){
